@@ -4,7 +4,7 @@ import assets from '../assets/assets'
 const Footer = () => {
   return (
     <footer class="px-2 md:px-16 lg:px-24 xl:px-32 mt-10 text-sm text-gray-500">
-        <div class="flex flex-col md:flex-row items-start justify-between gap-2 pb-6 border-borderColor">
+        <div class="flex flex-col md:flex-row items-start justify-between gap-2 pb-6 border-borderColor border-b">
             <div>
                 <img class="w-34 md:w-32" src={assets.logo} alt="dummyLogoColored" />
                 <p class="max-w-80 mt-3">Premium car rental service with a wide selection of vehicles to suit your needs.</p>
